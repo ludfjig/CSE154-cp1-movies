@@ -1,16 +1,16 @@
 /*
-  *** TODO: fill in your header ***
-  INSERT YOUR NAME HERE
-  INSERT THE CURRENT DATE HERE
-
-  WRITE A 1-3 SENTENCE SHORT FILE DESCRIPTION HERE
+    Name: Ludvig Liljenberg
+    Date:  April 1, 2019
+    Section: CSE 154 AF
+    This is the style.css page for my all of my html sites in creative project 1
 */
+
 
 /* Remember: This body ruleset is to get you started, but does not count towards the CP requirements! */
 body {
   background-color: beige;
-  font-family: Helvetica, sans-serif;
-  margin-left: auto; 
+  font-family: 'Open Sans', sans-serif;
+  margin-left: auto;
   margin-right: auto;
   width: 80%;
 }
