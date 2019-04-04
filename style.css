@@ -5,9 +5,9 @@
     This is the style.css page for my all of my html sites in creative project 1
 */
 /* Remember: This body ruleset is to get you started, but does not count towards the CP requirements! */
+
 body {
-  height: 100%;
-  background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+  background: linear-gradient(to top, #accbee 0%, #e7f0fd 100%) fixed;
   font-family: 'Didact Gothic', sans-serif;
   margin-left: auto;
   margin-right: auto;
@@ -17,7 +17,6 @@ body {
 img {
   width: 500px;
   height: auto;
-
 }
 
 .current {
@@ -39,6 +38,7 @@ ul li {
 }
 
 ul a {
+  transition: background-color 1s;
   border-radius: 3px;
   display: block;
   color: white;
@@ -46,4 +46,8 @@ ul a {
   padding: 14px 16px;
   text-decoration: none;
   background-color: grey;
+}
+
+ul a:hover {
+  background-color: black;
 }
