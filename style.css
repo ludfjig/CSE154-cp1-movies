@@ -15,12 +15,23 @@ body {
   width: 60%;
 }
 
+header {
+  border: 2px grey solid;
+  border-radius: 3px;
+  padding: 2px;
+  box-shadow: 1px 1px 8px #606060;
+}
+
 img {
   width: 300px;
   height: auto;
 }
 
-.current {
+strong {
+  font-size: 150%;
+}
+
+#current-page {
   background-color: black;
 }
 
