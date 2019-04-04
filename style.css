@@ -5,6 +5,7 @@
     This is the style.css page for my all of my html sites in creative project 1
 */
 /* Remember: This body ruleset is to get you started, but does not count towards the CP requirements! */
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
 
 body {
   background: linear-gradient(to top, #accbee 0%, #e7f0fd 100%) fixed;
@@ -15,7 +16,7 @@ body {
 }
 
 img {
-  width: 500px;
+  width: 300px;
   height: auto;
 }
 
