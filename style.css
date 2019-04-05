@@ -2,13 +2,13 @@
     Name: Ludvig Liljenberg
     Date:  April 1, 2019
     Section: CSE 154 AF
-    This is the style.css page for my all of my html sites in creative project 1
+    This is the style.css page for my both  my html sites in creative project 1
+    to make both pages look similar in style
 */
-/* Remember: This body ruleset is to get you started, but does not count towards the CP requirements! */
 @import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
 
 body {
-  background: linear-gradient(to top, #accbee 0%, #e7f0fd 100%) fixed;
+  background: linear-gradient(30deg, #accbee 0%, #e7f0fd 100%) fixed;
   font-family: 'Didact Gothic', sans-serif;
   margin-left: auto;
   margin-right: auto;
@@ -23,11 +23,11 @@ header {
 }
 
 img {
-  width: 300px;
-  height: auto;
+  height: 250px;
+  width: auto;
 }
 
-strong {
+h1 strong {
   font-size: 150%;
 }
 
@@ -41,21 +41,17 @@ span {
 
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-ul li {
-  display: inline-block;
+  margin: 0px;
+  padding: 0px;
 }
 
 ul a {
-  transition: background-color 1s;
+  transition: background-color 0.75s;
   border-radius: 3px;
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 20px;
   text-decoration: none;
   background-color: grey;
 }
